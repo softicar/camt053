@@ -2,11 +2,11 @@
 // Diese Datei wurde mit der Eclipse Implementation of JAXB, v3.0.0 generiert 
 // Siehe https://eclipse-ee4j.github.io/jaxb-ri 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2022.03.17 um 11:27:27 AM CET 
+// Generiert: 2022.03.21 um 12:10:46 PM CET 
 //
 
 
-package camt053v2;
+package camt053;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 import jakarta.xml.bind.annotation.XmlAccessType;

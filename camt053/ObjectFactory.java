@@ -2,11 +2,11 @@
 // Diese Datei wurde mit der Eclipse Implementation of JAXB, v3.0.0 generiert 
 // Siehe https://eclipse-ee4j.github.io/jaxb-ri 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2022.03.17 um 11:27:27 AM CET 
+// Generiert: 2022.03.21 um 12:10:46 PM CET 
 //
 
 
-package camt053v2;
+package camt053;
 
 import javax.xml.namespace.QName;
 import jakarta.xml.bind.JAXBElement;
@@ -17,7 +17,7 @@ import jakarta.xml.bind.annotation.XmlRegistry;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the camt053v2 package. 
+ * generated in the camt053 package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -34,7 +34,7 @@ public class ObjectFactory {
     private final static QName _Document_QNAME = new QName("urn:iso:std:iso:20022:tech:xsd:camt.053.001.02", "Document");
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: camt053v2
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: camt053
      * 
      */
     public ObjectFactory() {
