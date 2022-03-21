@@ -1,0 +1,25 @@
+plugins {
+	id 'com.softicar.gradle.java.library' version '4.0.3'
+}
+
+apply plugin: 'com.softicar.gradle.java.library'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'jakarta.xml.bind:jakarta.xml.bind-api:3.0.0'
+}
+
+sourceCompatibility = "15"
+targetCompatibility = "15"
+
+compileJava {
+	options.encoding = "UTF-8"
+}
+
+compileTestJava {
+	options.encoding = "UTF-8"
+}
+
