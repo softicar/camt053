@@ -2,8 +2,6 @@ plugins {
 	id 'com.softicar.gradle.java.library' version '4.0.3'
 }
 
-apply plugin: 'com.softicar.gradle.java.library'
-
 repositories {
 	mavenCentral()
 }
